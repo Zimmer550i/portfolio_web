@@ -36,13 +36,13 @@ export const HeroSection: React.FC = () => {
 
   const handleResumeDownload = () => {
     AnalyticsService.trackCtaClick('DOWNLOAD_RESUME', userData.cvAsset);
-    alert(`Downloading ${userData.name.replace(/\s+/g, '_')}_Staff_Flutter_Resume.pdf...`);
+    alert(`Downloading ${userData.name.replace(/\s+/g, '_')}_Resume.pdf...`);
   };
 
   return (
     <section ref={sectionRef} id="hero" className="w-full scroll-mt-24">
       <PixelCard
-        title={`ENGINEER_SPEC://${userData.name.toUpperCase().replace(/\s+/g, '_')}.FLUTTER_LEAD`}
+        title={`ENGINEER_SPEC://${userData.name.toUpperCase().replace(/\s+/g, '_')}.FLUTTER_GOLANG_DEV`}
         statusBadge="PROD_VERIFIED"
         elevation="lg"
       >
@@ -57,10 +57,10 @@ export const HeroSection: React.FC = () => {
                 style={{ imageRendering: 'pixelated' }}
               />
               <div className="absolute -top-2.5 -left-2.5 bg-pixel-secondary text-pixel-primary-contrast border-2 border-pixel-border font-arcade text-[9px] px-2 py-0.5 shadow-pixel-xs">
-                STAFF ENG
+                FLUTTER DEV
               </div>
               <div className="absolute -bottom-2.5 -right-2.5 bg-pixel-primary text-pixel-primary-contrast border-2 border-pixel-border font-arcade text-[9px] px-2 py-0.5 shadow-pixel-xs">
-                DART 3.5 AOT
+                GO &amp; FASTAPI
               </div>
             </div>
 
@@ -79,7 +79,7 @@ export const HeroSection: React.FC = () => {
                 </span>
               </div>
               <div className="flex items-center justify-between border-b border-pixel-border pb-1">
-                <span className="text-pixel-text-muted font-bold">Native FFI</span>
+                <span className="text-pixel-text-muted font-bold">Backend &amp; APIs</span>
                 <span className="font-bold text-pixel-text truncate ml-2">
                   {userData.specs.nativeBridges}
                 </span>
@@ -172,3 +172,4 @@ export const HeroSection: React.FC = () => {
     </section>
   );
 };
+

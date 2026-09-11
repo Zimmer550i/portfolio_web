@@ -43,3 +43,4 @@ export const PixelTabs: React.FC<PixelTabsProps> = ({
     </div>
   );
 };
+

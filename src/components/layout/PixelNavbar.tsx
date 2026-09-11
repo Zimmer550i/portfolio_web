@@ -31,7 +31,7 @@ export const PixelNavbar: React.FC<PixelNavbarProps> = ({
         <div className="flex items-center gap-3 sm:gap-5">
           <span className="flex items-center gap-1.5 font-bold text-pixel-primary">
             <span className="w-2 h-2 bg-pixel-primary inline-block animate-ping" />
-            FLUTTER 3.24 // DART 3.5
+            FLUTTER // GOLANG // FASTAPI
           </span>
           <span className="hidden md:inline font-mono text-pixel-text-muted">
             {userData.targetFramerate}
@@ -184,3 +184,4 @@ export const PixelNavbar: React.FC<PixelNavbarProps> = ({
     </header>
   );
 };
+

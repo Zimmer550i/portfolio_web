@@ -59,10 +59,12 @@ export interface Projects {
   workedFor?: Company;
   skills?: Skills[];
   media?: Media[];
-  category?: 'all' | 'video' | 'mockup' | 'showcase' | 'engine' | 'architecture';
+  category?: string;
   metrics?: { label: string; value: string };
   githubUrl?: string;
   liveUrl?: string;
+  appStoreUrl?: string;
+  playStoreUrl?: string;
 }
 
 export interface Expereince {
@@ -159,3 +161,4 @@ export interface AppConfiguration {
   soundEffects: boolean;
   sections: SectionConfig[];
 }
+

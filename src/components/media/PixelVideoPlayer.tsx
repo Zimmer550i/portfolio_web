@@ -142,3 +142,4 @@ export const PixelVideoPlayer: React.FC<PixelVideoPlayerProps> = ({
     </div>
   );
 };
+

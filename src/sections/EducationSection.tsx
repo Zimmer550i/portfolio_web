@@ -77,37 +77,47 @@ export const EducationSection: React.FC = () => {
           ))}
 
           {/* Industry Certifications Card */}
+          {/* Spoken Languages & Developer Tooling Card */}
           <div className="bg-pixel-surface-dim p-4 border-2 border-pixel-border shadow-pixel-xs flex flex-col justify-between gap-3">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 bg-pixel-surface border-2 border-pixel-border flex items-center justify-center text-pixel-secondary shrink-0">
                 <Award size={20} />
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col w-full">
                 <h3 className="font-arcade text-xs text-pixel-text">
-                  INDUSTRY CREDENTIALS
+                  LANGUAGES &amp; PLATFORMS
                 </h3>
                 <span className="font-code text-xs text-pixel-primary font-bold">
-                  Google & Open Source Verified
+                  Spoken Proficiencies &amp; Tooling
                 </span>
-                <div className="flex flex-col gap-1.5 mt-2 font-code text-xs text-pixel-text">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 bg-pixel-primary inline-block" />
-                    <span>Google Certified Associate Android Developer</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 bg-pixel-secondary inline-block" />
-                    <span>Dart Language Contributor (Core SDK & Lints)</span>
-                  </div>
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-1.5 h-1.5 bg-pixel-accent inline-block" />
-                    <span>Flutter Certified Senior Mobile Architect</span>
+
+                {/* Spoken Languages Grid */}
+                <div className="grid grid-cols-2 gap-2 mt-3 font-code text-xs">
+                  {userData.languages.map((lang, lIdx) => (
+                    <div
+                      key={lIdx}
+                      className="p-1.5 bg-pixel-surface border border-pixel-border flex items-center justify-between"
+                    >
+                      <span className="font-bold text-pixel-text">{lang.language}</span>
+                      <span className="text-[10px] text-pixel-primary uppercase font-bold">
+                        {lang.proficiency === 'c1' ? 'Fluent' : lang.proficiency === 'native' ? 'Native' : lang.proficiency === 'a2' ? 'Basic' : 'Learning'}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Tools & Release Platforms */}
+                <div className="mt-3 pt-2 border-t border-pixel-border flex flex-col gap-1 font-code text-[11px] text-pixel-text">
+                  <div className="text-pixel-text-muted font-bold uppercase">Tools &amp; Platforms:</div>
+                  <div className="text-pixel-secondary">
+                    App Store Connect • Google Play Console • Postman • cPanel
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="border-t border-pixel-border pt-2 font-code text-[10px] text-pixel-text-muted">
-              Active Dart & Flutter Ecosystem Technical Reviewer
+              Foundation in Competitive Programming &amp; Algorithmic Thinking
             </div>
           </div>
         </div>
@@ -115,3 +125,4 @@ export const EducationSection: React.FC = () => {
     </section>
   );
 };
+

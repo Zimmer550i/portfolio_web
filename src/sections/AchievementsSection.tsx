@@ -35,8 +35,8 @@ export const AchievementsSection: React.FC = () => {
   return (
     <section ref={sectionRef} id="achievements" className="w-full scroll-mt-24">
       <PixelCard
-        title="COMMUNITY_IMPACT & OPEN_SOURCE_RECOGNITION"
-        subtitle="ECOSYSTEM CONTRIBUTIONS"
+        title="PRODUCTION_IMPACT &amp; ENGINEERING_MILESTONES"
+        subtitle="VERIFIED MONETIZATION &amp; RELEASES"
         icon={<Trophy size={14} className="text-pixel-accent" />}
         elevation="lg"
       >
@@ -76,3 +76,4 @@ export const AchievementsSection: React.FC = () => {
     </section>
   );
 };
+

@@ -48,7 +48,7 @@ export const App: React.FC = () => {
               © {new Date().getFullYear()} {userData.name.toUpperCase()}
             </span>
             <span className="hidden sm:inline">•</span>
-            <span>BUILT WITH FLUTTER RETRO AESTHETIC & REACT WASM ARCHITECTURE</span>
+            <span>BUILT WITH FLUTTER &amp; DART DESIGN PHILOSOPHY // HIGH-PERFORMANCE WEB ARCHITECTURE</span>
           </div>
 
           <div className="flex items-center gap-4">
@@ -69,3 +69,4 @@ export const App: React.FC = () => {
     </div>
   );
 };
+

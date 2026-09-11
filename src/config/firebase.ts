@@ -25,3 +25,4 @@ if (typeof window !== 'undefined') {
     console.warn('⚡ [Firebase Analytics] Not available in this context:', err);
   });
 }
+

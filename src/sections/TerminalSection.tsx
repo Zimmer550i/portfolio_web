@@ -35,3 +35,4 @@ export const TerminalSection: React.FC = () => {
     </section>
   );
 };
+

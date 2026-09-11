@@ -43,15 +43,15 @@ export const DesignSystemShowcase: React.FC = () => {
     <div className="flex flex-col gap-10">
       {/* Page Banner */}
       <PixelCard
-        title="DESIGN_SYSTEM_SPEC // BITSHIFT_ARCADE_STUDIO_V1.0"
-        subtitle="EDITABLE THEMES, TOKENS, ATOMS & MEDIA PLAYERS"
+        title="DESIGN_SYSTEM_SPEC // PIXEL_DEV_CONSOLE_V1.0"
+        subtitle="EDITABLE THEMES, TOKENS, ATOMS &amp; MEDIA PLAYERS"
         icon={<Sparkles size={16} className="text-pixel-primary" />}
         elevation="lg"
       >
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div>
             <h1 className="font-arcade text-lg text-pixel-primary leading-tight">
-              ARCADE DESIGN SYSTEM & COMPONENT PLAYGROUND
+              DEVELOPER DESIGN SYSTEM &amp; COMPONENT BENCHMARK
             </h1>
             <p className="font-code text-xs text-pixel-text-muted mt-2">
               All components obey strict 0px border-radius geometry, stepped unblurred shadows, tactile press translation, and editable theme tokens.
@@ -292,16 +292,16 @@ export const DesignSystemShowcase: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div className="lg:col-span-6">
             <PixelVideoPlayer
-              title="PixelArcade Impeller Profiler & WASM Runtime"
+              title="TheClue System Architecture &amp; RAG Pipeline Breakdown"
               url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              thumbnail="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80"
-              duration="14:20"
+              thumbnail="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80"
+              duration="12:30"
             />
           </div>
 
           <div className="lg:col-span-6">
             <PixelGlbViewer
-              title="Retro Arcade Turntable (PBR Shaders)"
+              title="Interactive 3D Hardware Chassis (GLB Turntable)"
               src="https://modelviewer.dev/shared-assets/models/Astronaut.glb"
             />
           </div>
@@ -364,3 +364,4 @@ export const DesignSystemShowcase: React.FC = () => {
     </div>
   );
 };
+

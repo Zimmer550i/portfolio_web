@@ -35,8 +35,8 @@ export const SkillsSection: React.FC = () => {
   return (
     <section ref={sectionRef} id="skills" className="w-full scroll-mt-24">
       <PixelCard
-        title="CORE_STACK // FLUTTER_ECOSYSTEM_TOOLKIT"
-        subtitle="AOT COMPILATION • CUSTOM RENDERERS • ZERO-JANK"
+        title="TECHNICAL_TOOLKIT // FLUTTER_GOLANG_FASTAPI_STACK"
+        subtitle="CROSS-PLATFORM • CONCURRENT MICROSERVICES • CLEAN ARCHITECTURE"
         icon={<Terminal size={14} className="text-pixel-primary" />}
         elevation="lg"
       >
@@ -86,3 +86,4 @@ export const SkillsSection: React.FC = () => {
     </section>
   );
 };
+

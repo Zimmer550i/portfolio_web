@@ -1,269 +1,267 @@
 {
   "name": "Md. Wasiul Islam",
-  "roleTitle": "STAFF FLUTTER ENGINEER & ARCHITECT",
-  "tagline": "BUILDING ZERO-JANK, 60 FPS CROSS-PLATFORM SYSTEMS AT SCALE.",
-  "statusBadge": "STATUS: AVAILABLE_FOR_ROLES",
-  "targetFramerate": "TARGET: 60 FPS JITTER-FREE",
-  "runtimeRenderer": "RENDERER: IMPELLER & SKIA",
+  "roleTitle": "FLUTTER | GOLANG | FASTAPI DEVELOPER",
+  "tagline": "BUILDING & SHIPPING SCALABLE CROSS-PLATFORM MOBILE & BACKEND SYSTEMS.",
+  "statusBadge": "STATUS: OPEN_TO_OPPORTUNITIES",
+  "targetFramerate": "MOBILE & WEB // GO & FASTAPI BACKEND",
+  "runtimeRenderer": "ENGINE: FLUTTER & DART",
+  "location": "Dhaka, Bangladesh",
+  "phone": "+880 1825 067298",
+  "email": "sakif049@gmail.com",
   "imgAsset": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
-  "cvAsset": "/assets/resume.pdf",
-  "email": "wasiul0491@gmail.com",
-  "highlight": "Specializing in high-concurrency state management, custom Skia/Impeller render pipelines, native FFI channels, and offline-first reactive architectures.",
-  "summery": "7+ years designing enterprise-grade iOS & Android applications, custom Skia/Impeller render pipelines, and offline-first reactive systems. Experienced in leading mobile teams, profiling low-level memory isolates, and delivering silky smooth 60/120Hz experiences for millions of active global users.",
+  "cvAsset": "/assets/Md_Wasiul_Islam_Resume.pdf",
+  "highlight": "Self-taught Flutter Developer with a strong foundation in Competitive Programming and 2 years of professional experience building and shipping cross-platform mobile and web applications. Expanding into backend microservices with Go (Gin) and Python (FastAPI).",
+  "summery": "Self-taught Flutter Developer with a strong foundation in Competitive Programming and 2 years of professional experience building and shipping cross-platform mobile and web applications. Currently expanding into backend development with Go (Gin) and Python (FastAPI). Strong ability to independently learn new technologies and solve complex technical problems. Open to relocation and new opportunities.",
   "specs": {
-    "primaryDomain": "Flutter / iOS & Android",
-    "stateEngine": "Riverpod / BLoC / Signals",
-    "nativeBridges": "Swift / Kotlin / C++ FFI",
-    "availability": "Contract & Full-Time"
+    "primaryDomain": "Flutter (iOS, Android, Web)",
+    "stateEngine": "Bloc • Provider • GetX",
+    "nativeBridges": "Go (Gin) • Python (FastAPI)",
+    "availability": "Open to Relocation & Roles"
   },
   "stats": [
-    { "label": "Flutter & Dart Exp", "value": "7+ YRS", "color": "primary" },
-    { "label": "Store Installs", "value": "1.2M+", "color": "secondary" },
-    { "label": "Crash-Free Rate", "value": "99.9%", "color": "accent" },
-    { "label": "Pub.dev Packages", "value": "12", "color": "primary" }
+    { "label": "Professional Exp", "value": "2 YRS", "color": "primary" },
+    { "label": "TheClue Paying Users", "value": "200+", "color": "secondary" },
+    { "label": "Return on Investment", "value": "10x ROI", "color": "accent" },
+    { "label": "Core Foundation", "value": "COMP PROG", "color": "primary" }
   ],
   "skills": [
     {
-      "technology": { "name": "FLUTTER 3.24 SDK", "category": "framework" },
-      "learningSince": "2018-01-01",
+      "technology": { "name": "FLUTTER & DART", "category": "framework" },
+      "learningSince": "2023-01-01",
       "levelTag": "EXPERT",
-      "proficiencyPercentage": 98,
-      "description": "Impeller engine, cross-platform compilation, responsive multi-window architectures and custom render pipelines."
-    },
-    {
-      "technology": { "name": "DART 3.5 LANGUAGE", "category": "language" },
-      "learningSince": "2018-01-01",
-      "levelTag": "EXPERT",
-      "proficiencyPercentage": 96,
-      "description": "Pattern matching, records, FFI C-bindings, concurrent isolates and high-throughput async streams."
-    },
-    {
-      "technology": { "name": "STATE: RIVERPOD & BLOC", "category": "framework" },
-      "learningSince": "2019-06-01",
-      "levelTag": "ARCHITECT",
       "proficiencyPercentage": 95,
-      "description": "Predictable unidirectional data flows, auto-dispose caching, and high-frequency real-time tickers."
+      "description": "Cross-platform mobile and web engineering, responsive layout systems, custom widgets, and platform channel integrations."
     },
     {
-      "technology": { "name": "RENDEROBJECTS & SHADERS", "category": "core" },
-      "learningSince": "2020-03-01",
-      "levelTag": "SPECIALIST",
+      "technology": { "name": "STATE: BLOC, PROVIDER, GETX", "category": "framework" },
+      "learningSince": "2023-01-01",
+      "levelTag": "ARCHITECT",
       "proficiencyPercentage": 92,
-      "description": "Custom RenderBox layout passes, GLSL fragment shaders, and Skia Canvas custom painters."
+      "description": "Predictable unidirectional data flows, reactive streams, modular dependency injection, and clean state separation."
     },
     {
-      "technology": { "name": "SWIFT & KOTLIN CHANNELS", "category": "language" },
-      "learningSince": "2018-08-01",
+      "technology": { "name": "GO (GIN FRAMEWORK)", "category": "language" },
+      "learningSince": "2025-01-01",
       "levelTag": "ADVANCED",
+      "proficiencyPercentage": 85,
+      "description": "High-performance concurrent microservices, RESTful API design, middleware pipelines, and goroutine synchronization."
+    },
+    {
+      "technology": { "name": "PYTHON (FASTAPI)", "category": "language" },
+      "learningSince": "2025-01-01",
+      "levelTag": "ADVANCED",
+      "proficiencyPercentage": 88,
+      "description": "Asynchronous REST APIs, RAG pipelines with vector embeddings, Pydantic data validation, and OpenAPI documentation."
+    },
+    {
+      "technology": { "name": "REST API & WEBSOCKETS", "category": "core" },
+      "learningSince": "2023-06-01",
+      "levelTag": "PRODUCTION",
+      "proficiencyPercentage": 92,
+      "description": "Bi-directional real-time communication, low-latency socket event streams, payload serialization, and HTTP networking."
+    },
+    {
+      "technology": { "name": "FIREBASE & REVENUECAT", "category": "database" },
+      "learningSince": "2024-01-01",
+      "levelTag": "PRODUCTION",
       "proficiencyPercentage": 90,
-      "description": "Platform channels, Pigeon code generator, Bluetooth LE peripheral communication, and background workers."
+      "description": "Firebase Auth, Firestore, FCM Push Notifications, and multi-platform in-app subscription webhooks (Apple Pay, Google Pay, PayPal)."
     },
     {
-      "technology": { "name": "SQLITE / DRIFT / SUPABASE", "category": "database" },
-      "learningSince": "2019-01-01",
+      "technology": { "name": "APP STORE & PLAY CONSOLE", "category": "devops" },
+      "learningSince": "2024-06-01",
       "levelTag": "PRODUCTION",
-      "proficiencyPercentage": 93,
-      "description": "Encrypted local persistence, SQLCipher, offline-first syncing, and Supabase Auth & Realtime DB."
+      "proficiencyPercentage": 90,
+      "description": "Automated release management, TestFlight internal/external testing, App Review guidelines compliance, and signing."
     },
     {
-      "technology": { "name": "CI/CD & FASTLANE PIPELINES", "category": "devops" },
-      "learningSince": "2019-11-01",
-      "levelTag": "PRODUCTION",
-      "proficiencyPercentage": 94,
-      "description": "App Store Connect & Play Console automated deployments, Codemagic, and GitHub Actions matrix runners."
-    },
-    {
-      "technology": { "name": "FLAME 2D & GRAPHQL / gRPC", "category": "framework" },
-      "learningSince": "2021-02-01",
+      "technology": { "name": "COMPETITIVE PROGRAMMING", "category": "core" },
+      "learningSince": "2021-01-01",
       "levelTag": "SPECIALIST",
-      "proficiencyPercentage": 89,
-      "description": "Game loop optimization, proto serialization, and bidirectional WebSockets communication."
+      "proficiencyPercentage": 94,
+      "description": "Algorithmic problem solving, data structures optimization, time/space complexity analysis, and graph/dynamic programming."
     }
   ],
   "expereince": [
     {
       "id": "exp-1",
-      "roleTitle": "LEAD MOBILE ARCHITECT",
+      "roleTitle": "EXECUTIVE FLUTTER DEVELOPER",
       "company": {
-        "name": "APEX FINTECH",
-        "url": "https://example.com"
+        "name": "JOIN VENTURE AI",
+        "url": "https://theclue.io"
       },
       "type": "fullTime",
-      "isRemote": true,
-      "startDate": "2022-03-01",
+      "isRemote": false,
+      "startDate": "2026-07-01",
       "endDate": null,
-      "description": "Spearheaded the unified Flutter 3 migration serving 850K+ active mobile banking clients. Re-architected realtime transaction feeds and candlestick charting engine utilizing custom RenderBoxes, achieving uninterrupted 60 FPS plotting on low-tier Android hardware. Reduced cold start time by 38% and maintained 99.94% crash-free sessions across releases.",
+      "description": "Leading the mobile engineering lifecycle for TheClue on App Store and Google Play. Architecting robust cross-platform features and developing asynchronous backend microservices using FastAPI.",
       "highlight": [
-        "Reduced cold start latency from 2.4s to 1.1s via AOT optimization",
-        "Created custom 60 FPS candlestick stock chart RenderBox",
-        "Migrated 12-developer squad from Provider to Riverpod 2 architecture"
+        "Directly responsible for production maintenance of TheClue's mobile application on App Store and Play Store",
+        "Developing backend features and API endpoints using Python FastAPI",
+        "Conducting code reviews, optimizing app performance, and maintaining 99.9% crash-free sessions"
       ],
       "skills": [
-        { "technology": { "name": "Flutter 3.24" } },
-        { "technology": { "name": "Riverpod 2" } },
-        { "technology": { "name": "Custom RenderBox" } },
-        { "technology": { "name": "Impeller Engine" } }
+        { "technology": { "name": "Flutter" } },
+        { "technology": { "name": "FastAPI" } },
+        { "technology": { "name": "App Store Connect" } },
+        { "technology": { "name": "Google Play Console" } }
       ]
     },
     {
       "id": "exp-2",
-      "roleTitle": "SENIOR FLUTTER ENGINEER",
+      "roleTitle": "JUNIOR FLUTTER DEVELOPER",
       "company": {
-        "name": "NOVA HEALTH IOT",
-        "url": "https://example.com"
+        "name": "JOIN VENTURE AI",
+        "url": "https://theclue.io"
       },
       "type": "fullTime",
       "isRemote": false,
-      "startDate": "2020-01-01",
-      "endDate": "2022-02-28",
-      "description": "Engineered medical companion app connecting to WearOS & BLE biometric hardware. Built zero-packet-drop streaming layer utilizing Swift CoreBluetooth and Android Nordic BLE bridged into Dart BLoC. Implemented HIPAA-compliant encrypted SQLite local caching and automated TestFlight / Google Play deployment pipelines via Fastlane.",
+      "startDate": "2025-01-01",
+      "endDate": "2026-06-30",
+      "description": "Developed and maintained cross-platform Flutter applications using GetX for state management. Implemented real-time features using WebSockets and REST APIs, and managed in-app monetization.",
       "highlight": [
-        "Delivered 99.98% BLE reconnection reliability under low-power suspend",
-        "Encrypted biometric data using SQLCipher AES-256",
-        "Configured Fastlane auto-signing and distribution"
+        "Implemented real-time features utilizing WebSocket and REST API architectures",
+        "Integrated in-app subscriptions and payment webhooks via RevenueCat",
+        "Handled end-to-end releases on App Store Connect and Google Play Console"
       ],
       "skills": [
-        { "technology": { "name": "Bluetooth LE" } },
-        { "technology": { "name": "Kotlin Channels" } },
-        { "technology": { "name": "Swift Bridge" } },
-        { "technology": { "name": "SQLCipher" } }
+        { "technology": { "name": "Flutter" } },
+        { "technology": { "name": "GetX" } },
+        { "technology": { "name": "WebSockets" } },
+        { "technology": { "name": "RevenueCat" } }
       ]
     },
     {
       "id": "exp-3",
-      "roleTitle": "MOBILE DEVELOPER",
+      "roleTitle": "FLUTTER INTERN (REMOTE)",
       "company": {
-        "name": "PIXELWORKS STUDIO",
+        "name": "Z8TECH",
         "url": "https://example.com"
       },
-      "type": "fullTime",
-      "isRemote": false,
-      "startDate": "2017-06-01",
-      "endDate": "2019-12-31",
-      "description": "Delivered 15+ cross-platform production apps spanning e-commerce, consumer social, and interactive media. Early adopter of Flutter v1.0, architecting maintainable component design systems, testing suites, and REST/GraphQL microservice integrations.",
+      "type": "internship",
+      "isRemote": true,
+      "startDate": "2024-07-01",
+      "endDate": "2024-09-30",
+      "description": "Built core Flutter application features using the Provider state management pattern. Tested and verified backend REST endpoints with Postman, and supported backend workflows with cPanel and PHP.",
       "highlight": [
-        "Shipped 15 production apps across iOS App Store & Google Play",
-        "Pioneered pixel-perfect design system adopted across 8 team projects"
+        "Developed mobile UI screens and state logic using the Provider pattern",
+        "Automated API testing and payload validation via Postman collections",
+        "Assisted backend workflows using PHP, cPanel, and local XAMPP environments"
       ],
       "skills": [
-        { "technology": { "name": "Flutter 1.x / 2.x" } },
-        { "technology": { "name": "GraphQL" } },
-        { "technology": { "name": "Dart AOT" } }
+        { "technology": { "name": "Flutter" } },
+        { "technology": { "name": "Provider" } },
+        { "technology": { "name": "Postman" } },
+        { "technology": { "name": "PHP / cPanel" } }
       ]
     }
   ],
   "projects": [
     {
-      "id": "proj-1",
-      "title": "PixelArcade: Flutter Web & Impeller Engine",
+      "id": "proj-theclue",
+      "title": "TheClue: AI-Powered Crypto Learning Platform",
       "status": "completed",
-      "category": "video",
-      "description": "Customized 2D sprite rendering framework over Flame 1.18. Features zero-allocation tilemap rendering, chip-tune synth channels via Dart FFI bindings, and WebAssembly compilation producing rock-solid 60FPS in web browsers.",
+      "category": "flagship",
+      "description": "A cross-platform crypto education application featuring an AI assistant that answers learner questions directly from video content using a Retrieval-Augmented Generation (RAG) pipeline. Synchronizes multi-platform subscriptions (PayPal, Apple Pay, Google Pay) via RevenueCat webhooks and streams optimized video via Cloudinary.",
       "highlight": [
-        "Compiled to Wasm with zero garbage collection spikes",
-        "16.6ms render budget maintained under heavy particle load",
-        "Custom audio synthesizer via Dart FFI"
+        "AI Assistant with RAG pipeline answering learner queries directly from video content",
+        "Unified subscription & payment synchronization across Web (PayPal) and Mobile (Apple Pay/Google Pay) via RevenueCat",
+        "Scaled optimized video delivery with Cloudinary, driving 200+ paying users and 10x ROI"
       ],
-      "metrics": { "label": "RENDER BUDGET", "value": "16.6ms (60 FPS)" },
-      "githubUrl": "https://github.com",
-      "liveUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "metrics": { "label": "COMMERCIAL IMPACT", "value": "200+ PAYING USERS (10x ROI)" },
+      "githubUrl": "https://github.com/Zimmer550i",
+      "liveUrl": "https://theclue.io",
+      "appStoreUrl": "https://apps.apple.com",
+      "playStoreUrl": "https://play.google.com",
       "media": [
         {
           "type": "video",
           "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
           "youtubeId": "dQw4w9WgXcQ",
-          "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
-          "caption": "PixelArcade Impeller Profiler & WASM Runtime Demo",
-          "duration": "14:20"
+          "thumbnail": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1200&q=80",
+          "caption": "TheClue AI Crypto Learning Platform - System Architecture & RAG Pipeline Demo",
+          "duration": "12:30"
         }
       ],
       "tech": [
-        { "name": "Flutter 3.24" },
-        { "name": "Dart FFI" },
-        { "name": "WASM / Web" },
-        { "name": "Flame Engine" }
+        { "name": "Flutter" },
+        { "name": "Django / FastAPI" },
+        { "name": "Python AI (RAG)" },
+        { "name": "RevenueCat" },
+        { "name": "Cloudinary" }
       ]
     },
     {
-      "id": "proj-2",
-      "title": "Zenith Wealth: 60FPS Real-Time Micro-Animations",
+      "id": "proj-jurnee",
+      "title": "Jurnee: Local Event Discovery & Social Platform",
       "status": "completed",
-      "category": "mockup",
-      "description": "High-frequency investment management mobile application featuring custom RenderBox partitions isolating high-frequency market tickers from widget tree rebuilds. Shipped to 850,000 active iOS and Android users.",
+      "category": "flagship",
+      "description": "Cross-platform mobile event discovery application featuring social interactions, service bookings, and an endless TikTok-style media feed. Leverages Google Maps integration with custom Flutter overlay positioning calculated from visible map boundaries during pan and zoom gestures.",
       "highlight": [
-        "Custom RenderBox ticker isolated with RepaintBoundary",
-        "Sub-millisecond state updates with Riverpod 2.5",
-        "Biometric security with encrypted keychain storage"
+        "Dynamic Flutter widget overlays on Google Maps synchronized with visible bounding box during pan/zoom",
+        "Engineered reusable high-performance list component standardizing pagination, pull-to-refresh, and error states",
+        "Implemented social feeds, service booking checkout, and monetization via Google AdMob"
       ],
-      "metrics": { "label": "ACTIVE USERS", "value": "850,000+" },
-      "githubUrl": "https://github.com",
-      "liveUrl": "https://example.com",
+      "metrics": { "label": "MAP INTEGRATION", "value": "DYNAMIC BOUNDS ENGINE" },
+      "githubUrl": "https://github.com/Zimmer550i",
+      "liveUrl": "https://joinjurnee.com",
+      "appStoreUrl": "https://apps.apple.com",
+      "playStoreUrl": "https://play.google.com",
       "media": [
         {
           "type": "image",
-          "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
-          "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
-          "caption": "Zenith Wealth Mobile Dashboard View"
+          "url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80",
+          "thumbnail": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80",
+          "caption": "Jurnee Event Discovery & Map Viewport Interface"
         },
         {
           "type": "image",
-          "url": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1000&q=80",
-          "thumbnail": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=600&q=80",
-          "caption": "Realtime Candlestick Chart View"
+          "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=80",
+          "thumbnail": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=600&q=80",
+          "caption": "Jurnee Social Feed & Interactive Booking Screen"
         }
       ],
       "tech": [
-        { "name": "Riverpod 2.5" },
-        { "name": "Custom RenderBox" },
-        { "name": "Fastlane CI" },
-        { "name": "SQLCipher" }
+        { "name": "Flutter" },
+        { "name": "Node.js" },
+        { "name": "Google Maps API" },
+        { "name": "AdMob" },
+        { "name": "GetX" }
       ]
     },
     {
-      "id": "proj-3",
-      "title": "ChronoQuest: WebSockets Multiplayer Engine",
-      "status": "completed",
-      "category": "video",
-      "description": "Co-op mobile game featuring custom physics engine, WebSockets client synchronization, and spatial audio with zero frame-pacing drops during combat stress tests.",
-      "highlight": [
-        "200 concurrent clients per room with sub-20ms latency",
-        "Deterministic lockstep networking model",
-        "Custom Flame sprite animations with zero dropped frames"
-      ],
-      "metrics": { "label": "PACKET LATENCY", "value": "18ms" },
-      "githubUrl": "https://github.com",
-      "liveUrl": "https://youtube.com",
-      "media": [
-        {
-          "type": "video",
-          "url": "https://www.youtube.com/watch?v=L_LUpnjgPso",
-          "youtubeId": "L_LUpnjgPso",
-          "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
-          "caption": "ChronoQuest Multiplayer Combat Session",
-          "duration": "08:45"
-        }
-      ],
-      "tech": [
-        { "name": "Flame 1.18" },
-        { "name": "WebSockets" },
-        { "name": "Supabase" },
-        { "name": "Spatial Audio" }
-      ]
-    },
-    {
-      "id": "proj-4",
-      "title": "Retro Arcade Console (3D GLB Asset Model)",
+      "id": "proj-backend-hub",
+      "title": "Go (Gin) & Python (FastAPI) Microservices Hub",
       "status": "ongoing",
-      "category": "showcase",
-      "description": "Interactive 3D model of a customized pixel arcade console cabinet showcasing hardware texturing, custom CRT shader reflection, and interactive turntable controls.",
+      "category": "service",
+      "description": "Concurrent backend microservices architecture providing high-throughput REST and WebSocket endpoints, JWT authentication, and structured telemetry logging for cross-platform clients.",
       "highlight": [
-        "Ready for interactive GLB 3D inspect & rotate",
-        "PBR metallic-roughness pixel texturing",
-        "Interactive turntable pedestal"
+        "Goroutine concurrency for non-blocking I/O and real-time WebSocket multiplexing",
+        "FastAPI asynchronous request validation using Pydantic schemas",
+        "Postman collection-driven testing and automated CI workflow validation"
       ],
-      "metrics": { "label": "3D ASSET", "value": "GLB / TURNTABLE" },
-      "githubUrl": "https://github.com",
-      "liveUrl": "https://example.com",
+      "metrics": { "label": "BACKEND PIPELINE", "value": "GO GIN + FASTAPI" },
+      "githubUrl": "https://github.com/Zimmer550i",
+      "tech": [
+        { "name": "Go (Gin)" },
+        { "name": "FastAPI" },
+        { "name": "WebSockets" },
+        { "name": "Postman" }
+      ]
+    },
+    {
+      "id": "proj-3d-chassis",
+      "title": "Interactive 3D Hardware Chassis (GLB Asset Preview)",
+      "status": "ongoing",
+      "category": "service",
+      "description": "Interactive WebGL 3D model component demonstrating the extensible GLB viewer architecture. Renders PBR textured 3D assets with real-time orbit controls, turntable inspection, and lighting.",
+      "highlight": [
+        "Interactive 360° turntable orbit and zoom controls",
+        "WebGL PBR lighting and zero-jank camera rotation",
+        "Extensible architecture ready for custom product hardware GLB assets"
+      ],
+      "metrics": { "label": "3D ASSET ENGINE", "value": "GLB TURNTABLE" },
+      "githubUrl": "https://github.com/Zimmer550i",
       "media": [
         {
           "type": "threeD",
@@ -273,59 +271,60 @@
         }
       ],
       "tech": [
-        { "name": "Three.js / WebGL" },
+        { "name": "WebGL" },
         { "name": "GLTF / GLB" },
-        { "name": "PBR Shaders" }
+        { "name": "3D Orbit Controls" }
       ]
     }
   ],
   "education": [
     {
-      "instituteName": "Tech University",
-      "degree": "B.S. in Computer Science",
-      "course": "Distributed Systems, Compiler Design & HCI",
-      "dateOfCompletion": "2017",
-      "grade": "Magna Cum Laude",
+      "instituteName": "Daffodil International University",
+      "degree": "Bachelor of Science in Computer Science and Engineering",
+      "course": "Core CS: Data Structures, Algorithms, Operating Systems, Database Systems, Software Engineering",
+      "dateOfCompletion": "2021 – 2024",
+      "grade": "Graduated",
       "achievements": [
-        { "title": "ACM Student Chapter Lead" },
-        { "title": "Capstone Excellence Award for Low-Latency Mobile Graphics" }
+        { "title": "Strong foundation in Competitive Programming" },
+        { "title": "Algorithmic problem solving across multiple contest platforms" }
       ]
     }
   ],
   "achievements": [
     {
       "id": "ach-1",
-      "title": "TOP PACKAGE MAINTAINER",
-      "badge": "140+ PTS",
-      "score": "450K+ DOWNLOADS",
-      "category": "PUB.DEV PACKAGES",
-      "description": "Author and maintainer of 12 open-source Dart/Flutter packages spanning zero-allocation logging, high-speed cached shaders, and Riverpod utilities with over 450K lifetime pub downloads."
+      "title": "200+ PAYING SUBSCRIBERS & 10X ROI",
+      "badge": "PRODUCTION METRIC",
+      "score": "10X ROI",
+      "category": "COMMERCIAL IMPACT",
+      "description": "Engineered multi-channel monetization with RevenueCat for TheClue, driving over 200 paying subscribers across iOS, Android, and Web platforms with a 10x return on investment."
     },
     {
       "id": "ach-2",
-      "title": "GOOGLE PLAY FEATURED",
-      "badge": "BEST OF 2023",
-      "score": "APP STORE & PLAY",
-      "category": "PRODUCTION HIGHLIGHT",
-      "description": "Architected the flagship consumer health suite featured in Google Play Best of 2023 for design excellence and seamless accessibility compliance across foldables and tablets."
+      "title": "CROSS-PLATFORM PRODUCTION RELEASES",
+      "badge": "APP STORE & PLAY",
+      "score": "DUAL STORE",
+      "category": "RELEASE ENGINEERING",
+      "description": "Successfully deployed and maintained production applications on both Apple App Store and Google Play Console, managing provisioning profiles, certificates, and store compliance."
     },
     {
       "id": "ach-3",
-      "title": "FLUTTER GLOBAL KEYNOTE",
-      "badge": "SPEAKER",
-      "score": "45K+ VIEWS",
-      "category": "CONFERENCES",
-      "description": "Invited technical speaker on 'Taming 120Hz Jank with Custom RenderObjects & Memory Isolates' at Flutter Vikings and Flutter Global Summit."
+      "title": "COMPETITIVE PROGRAMMING MASTERY",
+      "badge": "ALGORITHMS",
+      "score": "CS FOUNDATION",
+      "category": "CORE ENGINEERING",
+      "description": "Solid foundation in data structures, graph theory, time-complexity minimization, and mathematical problem-solving applied directly to real-world software architecture."
     }
   ],
   "social": [
-    { "name": "GitHub", "url": "https://github.com", "icon": "Github" },
-    { "name": "LinkedIn", "url": "https://linkedin.com", "icon": "Linkedin" },
-    { "name": "Twitter / X", "url": "https://twitter.com", "icon": "Twitter" },
-    { "name": "Email", "url": "mailto:wasiul0491@gmail.com", "icon": "Mail" }
+    { "name": "GitHub", "url": "https://github.com/Zimmer550i", "icon": "Github" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/in/md-wasiul-islam", "icon": "Linkedin" },
+    { "name": "Email", "url": "mailto:sakif049@gmail.com", "icon": "Mail" }
   ],
   "languages": [
-    { "language": "English", "proficiency": "native" },
-    { "language": "Bengali", "proficiency": "native" }
+    { "language": "Bangla", "proficiency": "native" },
+    { "language": "English", "proficiency": "c1" },
+    { "language": "Hindi", "proficiency": "a2" },
+    { "language": "German", "proficiency": "a1" }
   ]
 }

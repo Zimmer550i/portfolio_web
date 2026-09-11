@@ -40,7 +40,7 @@ export const PixelTerminal: React.FC = () => {
 
     const newOutputs: CommandOutput[] = [
       ...history,
-      { id: Date.now(), type: 'input', text: `alex@station:~$ ${cmd}` },
+      { id: Date.now(), type: 'input', text: `wasiul@workstation:~$ ${cmd}` },
     ];
 
     const lower = cmd.toLowerCase();
@@ -55,13 +55,19 @@ export const PixelTerminal: React.FC = () => {
       newOutputs.push({
         id: Date.now() + 1,
         type: 'output',
-        text: `AVAILABLE COMMANDS:\n  • flutter doctor - Inspect Dart/Flutter environment\n  • skills         - List core technical stack\n  • projects       - Show production case studies\n  • hire / contact - Display direct contact information\n  • theme          - Toggle Dark / Light mode\n  • clear          - Reset terminal screen`,
+        text: `AVAILABLE COMMANDS:\n  • flutter doctor - Check Flutter & Dart SDK environment\n  • go / fastapi   - Inspect backend service architecture\n  • skills         - List core technical stack\n  • projects       - Show commercial applications (TheClue, Jurnee)\n  • hire / contact - Display direct contact information\n  • theme          - Toggle Dark / Light mode\n  • clear          - Reset terminal screen`,
       });
     } else if (lower === 'flutter doctor' || lower === 'doctor') {
       newOutputs.push({
         id: Date.now() + 1,
         type: 'success',
-        text: `[✓] Flutter 3.24.0 • channel stable (Impeller enabled)\n[✓] Dart 3.5.0 • FFI / Native C-bindings active\n[✓] Android SDK 34.0.0 & Xcode 16.0 verified\n[✓] Connected Devices: WebAssembly, iOS Impeller, Android Vulkan`,
+        text: `[✓] Flutter SDK • cross-platform mobile & web engine verified\n[✓] Dart SDK • asynchronous runtime & reactive streams active\n[✓] Go (Gin) • concurrent microservice router ready\n[✓] Python (FastAPI) • asynchronous API & RAG worker online\n[✓] Release Targets: Apple App Store & Google Play Console`,
+      });
+    } else if (lower === 'go' || lower === 'golang' || lower === 'fastapi') {
+      newOutputs.push({
+        id: Date.now() + 1,
+        type: 'output',
+        text: `BACKEND STACK:\n• Go (Gin Framework) - Concurrent microservices, RESTful routing, goroutines\n• Python (FastAPI) - Asynchronous endpoints, Pydantic validation, RAG AI services`,
       });
     } else if (lower === 'skills' || lower === 'stack') {
       const skillsList = userData.skills
@@ -165,7 +171,7 @@ export const PixelTerminal: React.FC = () => {
       {/* Interactive Input Row */}
       <div className="p-3 bg-pixel-surface flex items-center gap-2 font-code text-xs">
         <span className="text-pixel-secondary font-bold shrink-0">
-          alex@flutter:~$
+          wasiul@workstation:~$
         </span>
         <input
           type="text"
@@ -186,3 +192,4 @@ export const PixelTerminal: React.FC = () => {
     </div>
   );
 };
+

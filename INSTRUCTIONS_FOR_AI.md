@@ -109,3 +109,4 @@ Always log meaningful user interactions via `AnalyticsService` in `src/services/
 - Run dev server: `npm run dev`
 - Build for production: `npm run build`
 - Deploy to Firebase Hosting: `firebase deploy --only hosting`
+
