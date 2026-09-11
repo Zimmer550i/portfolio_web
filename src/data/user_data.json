@@ -1,0 +1,331 @@
+{
+  "name": "Md. Wasiul Islam",
+  "roleTitle": "STAFF FLUTTER ENGINEER & ARCHITECT",
+  "tagline": "BUILDING ZERO-JANK, 60 FPS CROSS-PLATFORM SYSTEMS AT SCALE.",
+  "statusBadge": "STATUS: AVAILABLE_FOR_ROLES",
+  "targetFramerate": "TARGET: 60 FPS JITTER-FREE",
+  "runtimeRenderer": "RENDERER: IMPELLER & SKIA",
+  "imgAsset": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+  "cvAsset": "/assets/resume.pdf",
+  "email": "wasiul0491@gmail.com",
+  "highlight": "Specializing in high-concurrency state management, custom Skia/Impeller render pipelines, native FFI channels, and offline-first reactive architectures.",
+  "summery": "7+ years designing enterprise-grade iOS & Android applications, custom Skia/Impeller render pipelines, and offline-first reactive systems. Experienced in leading mobile teams, profiling low-level memory isolates, and delivering silky smooth 60/120Hz experiences for millions of active global users.",
+  "specs": {
+    "primaryDomain": "Flutter / iOS & Android",
+    "stateEngine": "Riverpod / BLoC / Signals",
+    "nativeBridges": "Swift / Kotlin / C++ FFI",
+    "availability": "Contract & Full-Time"
+  },
+  "stats": [
+    { "label": "Flutter & Dart Exp", "value": "7+ YRS", "color": "primary" },
+    { "label": "Store Installs", "value": "1.2M+", "color": "secondary" },
+    { "label": "Crash-Free Rate", "value": "99.9%", "color": "accent" },
+    { "label": "Pub.dev Packages", "value": "12", "color": "primary" }
+  ],
+  "skills": [
+    {
+      "technology": { "name": "FLUTTER 3.24 SDK", "category": "framework" },
+      "learningSince": "2018-01-01",
+      "levelTag": "EXPERT",
+      "proficiencyPercentage": 98,
+      "description": "Impeller engine, cross-platform compilation, responsive multi-window architectures and custom render pipelines."
+    },
+    {
+      "technology": { "name": "DART 3.5 LANGUAGE", "category": "language" },
+      "learningSince": "2018-01-01",
+      "levelTag": "EXPERT",
+      "proficiencyPercentage": 96,
+      "description": "Pattern matching, records, FFI C-bindings, concurrent isolates and high-throughput async streams."
+    },
+    {
+      "technology": { "name": "STATE: RIVERPOD & BLOC", "category": "framework" },
+      "learningSince": "2019-06-01",
+      "levelTag": "ARCHITECT",
+      "proficiencyPercentage": 95,
+      "description": "Predictable unidirectional data flows, auto-dispose caching, and high-frequency real-time tickers."
+    },
+    {
+      "technology": { "name": "RENDEROBJECTS & SHADERS", "category": "core" },
+      "learningSince": "2020-03-01",
+      "levelTag": "SPECIALIST",
+      "proficiencyPercentage": 92,
+      "description": "Custom RenderBox layout passes, GLSL fragment shaders, and Skia Canvas custom painters."
+    },
+    {
+      "technology": { "name": "SWIFT & KOTLIN CHANNELS", "category": "language" },
+      "learningSince": "2018-08-01",
+      "levelTag": "ADVANCED",
+      "proficiencyPercentage": 90,
+      "description": "Platform channels, Pigeon code generator, Bluetooth LE peripheral communication, and background workers."
+    },
+    {
+      "technology": { "name": "SQLITE / DRIFT / SUPABASE", "category": "database" },
+      "learningSince": "2019-01-01",
+      "levelTag": "PRODUCTION",
+      "proficiencyPercentage": 93,
+      "description": "Encrypted local persistence, SQLCipher, offline-first syncing, and Supabase Auth & Realtime DB."
+    },
+    {
+      "technology": { "name": "CI/CD & FASTLANE PIPELINES", "category": "devops" },
+      "learningSince": "2019-11-01",
+      "levelTag": "PRODUCTION",
+      "proficiencyPercentage": 94,
+      "description": "App Store Connect & Play Console automated deployments, Codemagic, and GitHub Actions matrix runners."
+    },
+    {
+      "technology": { "name": "FLAME 2D & GRAPHQL / gRPC", "category": "framework" },
+      "learningSince": "2021-02-01",
+      "levelTag": "SPECIALIST",
+      "proficiencyPercentage": 89,
+      "description": "Game loop optimization, proto serialization, and bidirectional WebSockets communication."
+    }
+  ],
+  "expereince": [
+    {
+      "id": "exp-1",
+      "roleTitle": "LEAD MOBILE ARCHITECT",
+      "company": {
+        "name": "APEX FINTECH",
+        "url": "https://example.com"
+      },
+      "type": "fullTime",
+      "isRemote": true,
+      "startDate": "2022-03-01",
+      "endDate": null,
+      "description": "Spearheaded the unified Flutter 3 migration serving 850K+ active mobile banking clients. Re-architected realtime transaction feeds and candlestick charting engine utilizing custom RenderBoxes, achieving uninterrupted 60 FPS plotting on low-tier Android hardware. Reduced cold start time by 38% and maintained 99.94% crash-free sessions across releases.",
+      "highlight": [
+        "Reduced cold start latency from 2.4s to 1.1s via AOT optimization",
+        "Created custom 60 FPS candlestick stock chart RenderBox",
+        "Migrated 12-developer squad from Provider to Riverpod 2 architecture"
+      ],
+      "skills": [
+        { "technology": { "name": "Flutter 3.24" } },
+        { "technology": { "name": "Riverpod 2" } },
+        { "technology": { "name": "Custom RenderBox" } },
+        { "technology": { "name": "Impeller Engine" } }
+      ]
+    },
+    {
+      "id": "exp-2",
+      "roleTitle": "SENIOR FLUTTER ENGINEER",
+      "company": {
+        "name": "NOVA HEALTH IOT",
+        "url": "https://example.com"
+      },
+      "type": "fullTime",
+      "isRemote": false,
+      "startDate": "2020-01-01",
+      "endDate": "2022-02-28",
+      "description": "Engineered medical companion app connecting to WearOS & BLE biometric hardware. Built zero-packet-drop streaming layer utilizing Swift CoreBluetooth and Android Nordic BLE bridged into Dart BLoC. Implemented HIPAA-compliant encrypted SQLite local caching and automated TestFlight / Google Play deployment pipelines via Fastlane.",
+      "highlight": [
+        "Delivered 99.98% BLE reconnection reliability under low-power suspend",
+        "Encrypted biometric data using SQLCipher AES-256",
+        "Configured Fastlane auto-signing and distribution"
+      ],
+      "skills": [
+        { "technology": { "name": "Bluetooth LE" } },
+        { "technology": { "name": "Kotlin Channels" } },
+        { "technology": { "name": "Swift Bridge" } },
+        { "technology": { "name": "SQLCipher" } }
+      ]
+    },
+    {
+      "id": "exp-3",
+      "roleTitle": "MOBILE DEVELOPER",
+      "company": {
+        "name": "PIXELWORKS STUDIO",
+        "url": "https://example.com"
+      },
+      "type": "fullTime",
+      "isRemote": false,
+      "startDate": "2017-06-01",
+      "endDate": "2019-12-31",
+      "description": "Delivered 15+ cross-platform production apps spanning e-commerce, consumer social, and interactive media. Early adopter of Flutter v1.0, architecting maintainable component design systems, testing suites, and REST/GraphQL microservice integrations.",
+      "highlight": [
+        "Shipped 15 production apps across iOS App Store & Google Play",
+        "Pioneered pixel-perfect design system adopted across 8 team projects"
+      ],
+      "skills": [
+        { "technology": { "name": "Flutter 1.x / 2.x" } },
+        { "technology": { "name": "GraphQL" } },
+        { "technology": { "name": "Dart AOT" } }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "PixelArcade: Flutter Web & Impeller Engine",
+      "status": "completed",
+      "category": "video",
+      "description": "Customized 2D sprite rendering framework over Flame 1.18. Features zero-allocation tilemap rendering, chip-tune synth channels via Dart FFI bindings, and WebAssembly compilation producing rock-solid 60FPS in web browsers.",
+      "highlight": [
+        "Compiled to Wasm with zero garbage collection spikes",
+        "16.6ms render budget maintained under heavy particle load",
+        "Custom audio synthesizer via Dart FFI"
+      ],
+      "metrics": { "label": "RENDER BUDGET", "value": "16.6ms (60 FPS)" },
+      "githubUrl": "https://github.com",
+      "liveUrl": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "youtubeId": "dQw4w9WgXcQ",
+          "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+          "caption": "PixelArcade Impeller Profiler & WASM Runtime Demo",
+          "duration": "14:20"
+        }
+      ],
+      "tech": [
+        { "name": "Flutter 3.24" },
+        { "name": "Dart FFI" },
+        { "name": "WASM / Web" },
+        { "name": "Flame Engine" }
+      ]
+    },
+    {
+      "id": "proj-2",
+      "title": "Zenith Wealth: 60FPS Real-Time Micro-Animations",
+      "status": "completed",
+      "category": "mockup",
+      "description": "High-frequency investment management mobile application featuring custom RenderBox partitions isolating high-frequency market tickers from widget tree rebuilds. Shipped to 850,000 active iOS and Android users.",
+      "highlight": [
+        "Custom RenderBox ticker isolated with RepaintBoundary",
+        "Sub-millisecond state updates with Riverpod 2.5",
+        "Biometric security with encrypted keychain storage"
+      ],
+      "metrics": { "label": "ACTIVE USERS", "value": "850,000+" },
+      "githubUrl": "https://github.com",
+      "liveUrl": "https://example.com",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+          "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+          "caption": "Zenith Wealth Mobile Dashboard View"
+        },
+        {
+          "type": "image",
+          "url": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1000&q=80",
+          "thumbnail": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=600&q=80",
+          "caption": "Realtime Candlestick Chart View"
+        }
+      ],
+      "tech": [
+        { "name": "Riverpod 2.5" },
+        { "name": "Custom RenderBox" },
+        { "name": "Fastlane CI" },
+        { "name": "SQLCipher" }
+      ]
+    },
+    {
+      "id": "proj-3",
+      "title": "ChronoQuest: WebSockets Multiplayer Engine",
+      "status": "completed",
+      "category": "video",
+      "description": "Co-op mobile game featuring custom physics engine, WebSockets client synchronization, and spatial audio with zero frame-pacing drops during combat stress tests.",
+      "highlight": [
+        "200 concurrent clients per room with sub-20ms latency",
+        "Deterministic lockstep networking model",
+        "Custom Flame sprite animations with zero dropped frames"
+      ],
+      "metrics": { "label": "PACKET LATENCY", "value": "18ms" },
+      "githubUrl": "https://github.com",
+      "liveUrl": "https://youtube.com",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/watch?v=L_LUpnjgPso",
+          "youtubeId": "L_LUpnjgPso",
+          "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+          "caption": "ChronoQuest Multiplayer Combat Session",
+          "duration": "08:45"
+        }
+      ],
+      "tech": [
+        { "name": "Flame 1.18" },
+        { "name": "WebSockets" },
+        { "name": "Supabase" },
+        { "name": "Spatial Audio" }
+      ]
+    },
+    {
+      "id": "proj-4",
+      "title": "Retro Arcade Console (3D GLB Asset Model)",
+      "status": "ongoing",
+      "category": "showcase",
+      "description": "Interactive 3D model of a customized pixel arcade console cabinet showcasing hardware texturing, custom CRT shader reflection, and interactive turntable controls.",
+      "highlight": [
+        "Ready for interactive GLB 3D inspect & rotate",
+        "PBR metallic-roughness pixel texturing",
+        "Interactive turntable pedestal"
+      ],
+      "metrics": { "label": "3D ASSET", "value": "GLB / TURNTABLE" },
+      "githubUrl": "https://github.com",
+      "liveUrl": "https://example.com",
+      "media": [
+        {
+          "type": "threeD",
+          "url": "https://modelviewer.dev/shared-assets/models/Astronaut.glb",
+          "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+          "caption": "Interactive 3D Turntable Model Preview"
+        }
+      ],
+      "tech": [
+        { "name": "Three.js / WebGL" },
+        { "name": "GLTF / GLB" },
+        { "name": "PBR Shaders" }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "instituteName": "Tech University",
+      "degree": "B.S. in Computer Science",
+      "course": "Distributed Systems, Compiler Design & HCI",
+      "dateOfCompletion": "2017",
+      "grade": "Magna Cum Laude",
+      "achievements": [
+        { "title": "ACM Student Chapter Lead" },
+        { "title": "Capstone Excellence Award for Low-Latency Mobile Graphics" }
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "title": "TOP PACKAGE MAINTAINER",
+      "badge": "140+ PTS",
+      "score": "450K+ DOWNLOADS",
+      "category": "PUB.DEV PACKAGES",
+      "description": "Author and maintainer of 12 open-source Dart/Flutter packages spanning zero-allocation logging, high-speed cached shaders, and Riverpod utilities with over 450K lifetime pub downloads."
+    },
+    {
+      "id": "ach-2",
+      "title": "GOOGLE PLAY FEATURED",
+      "badge": "BEST OF 2023",
+      "score": "APP STORE & PLAY",
+      "category": "PRODUCTION HIGHLIGHT",
+      "description": "Architected the flagship consumer health suite featured in Google Play Best of 2023 for design excellence and seamless accessibility compliance across foldables and tablets."
+    },
+    {
+      "id": "ach-3",
+      "title": "FLUTTER GLOBAL KEYNOTE",
+      "badge": "SPEAKER",
+      "score": "45K+ VIEWS",
+      "category": "CONFERENCES",
+      "description": "Invited technical speaker on 'Taming 120Hz Jank with Custom RenderObjects & Memory Isolates' at Flutter Vikings and Flutter Global Summit."
+    }
+  ],
+  "social": [
+    { "name": "GitHub", "url": "https://github.com", "icon": "Github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com", "icon": "Linkedin" },
+    { "name": "Twitter / X", "url": "https://twitter.com", "icon": "Twitter" },
+    { "name": "Email", "url": "mailto:wasiul0491@gmail.com", "icon": "Mail" }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "native" },
+    { "language": "Bengali", "proficiency": "native" }
+  ]
+}

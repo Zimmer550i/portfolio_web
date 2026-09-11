@@ -1,0 +1,64 @@
+{
+  "activeTheme": "dark",
+  "fontPreset": "pixel-modern",
+  "scanlines": true,
+  "soundEffects": false,
+  "sections": [
+    {
+      "id": "hero",
+      "title": "ABOUT",
+      "icon": "User",
+      "enabled": true,
+      "description": "Profile, specs and primary engineering metrics"
+    },
+    {
+      "id": "skills",
+      "title": "STACK",
+      "icon": "Terminal",
+      "enabled": true,
+      "description": "Core tech stack, languages and frameworks"
+    },
+    {
+      "id": "experience",
+      "title": "EXPERIENCE",
+      "icon": "Briefcase",
+      "enabled": true,
+      "description": "Career track record and engineering milestones"
+    },
+    {
+      "id": "projects",
+      "title": "SHOWCASE",
+      "icon": "Layers",
+      "enabled": true,
+      "description": "Featured production case studies with video and 3D"
+    },
+    {
+      "id": "education",
+      "title": "EDUCATION",
+      "icon": "GraduationCap",
+      "enabled": true,
+      "description": "Academic foundation and verified industry credentials"
+    },
+    {
+      "id": "achievements",
+      "title": "RECOGNITION",
+      "icon": "Trophy",
+      "enabled": true,
+      "description": "Community impact, packages and keynote speaker talks"
+    },
+    {
+      "id": "terminal",
+      "title": "DEVTOOLS",
+      "icon": "Code",
+      "enabled": true,
+      "description": "Interactive retro REPL developer console"
+    },
+    {
+      "id": "contact",
+      "title": "CONTACT",
+      "icon": "Mail",
+      "enabled": true,
+      "description": "Direct hire inquiries and communication links"
+    }
+  ]
+}
