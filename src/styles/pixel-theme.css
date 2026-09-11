@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default: Dark Phosphor CRT Palette */
+  --pixel-bg: #0b1610;
+  --pixel-surface: #17221c;
+  --pixel-surface-dim: #0d1812;
+  --pixel-surface-bright: #212c26;
+  --pixel-primary: #4efa96;
+  --pixel-primary-hover: #2be281;
+  --pixel-primary-contrast: #00391b;
+  --pixel-secondary: #54c5f8;
+  --pixel-accent: #ffd79a;
+  --pixel-danger: #ff5555;
+  --pixel-text: #d9e6dc;
+  --pixel-text-muted: #859586;
+  --pixel-border: #18201b;
+  --pixel-border-bright: #3c4a3e;
+  --pixel-shadow: #060e09;
+}
+
+html.light {
+  /* Warm Parchment / Game Boy Palette */
+  --pixel-bg: #FAF6E9;
+  --pixel-surface: #FFFDF7;
+  --pixel-surface-dim: #F0EAD6;
+  --pixel-surface-bright: #E8DFCC;
+  --pixel-primary: #1A7E48;
+  --pixel-primary-hover: #28A745;
+  --pixel-primary-contrast: #ffffff;
+  --pixel-secondary: #02569B;
+  --pixel-accent: #C67D0A;
+  --pixel-danger: #B00020;
+  --pixel-text: #18201B;
+  --pixel-text-muted: #56645A;
+  --pixel-border: #18201B;
+  --pixel-border-bright: #3c4a3e;
+  --pixel-shadow: #18201B;
+}
+
+@layer base {
+  * {
+    border-color: var(--pixel-border);
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: var(--pixel-bg);
+    color: var(--pixel-text);
+    image-rendering: pixelated;
+  }
+
+  /* Custom retro monospace scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--pixel-surface-dim);
+    border-left: 2px solid var(--pixel-border);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--pixel-primary);
+    border: 2px solid var(--pixel-border);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pixel-primary-hover);
+  }
+}
+
+/* CRT Scanlines Overlay */
+.crt-scanlines {
+  position: relative;
+}
+.crt-scanlines::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.12),
+    rgba(0, 0, 0, 0.12) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 40;
+}
+
+/* Tactile Microswitch Button Press Effect */
+.pixel-press {
+  transition: transform 0.05s ease, box-shadow 0.05s ease;
+}
+.pixel-press:active {
+  transform: translate(2px, 2px) !important;
+  box-shadow: 1px 1px 0px var(--pixel-shadow) !important;
+}
+
+/* Stepped Pixel Border Helper */
+.pixel-box {
+  border: 2px solid var(--pixel-border);
+  box-shadow: 4px 4px 0px var(--pixel-shadow);
+}
+.pixel-box-sm {
+  border: 2px solid var(--pixel-border);
+  box-shadow: 2px 2px 0px var(--pixel-shadow);
+}
+.pixel-box-lg {
+  border: 2px solid var(--pixel-border);
+  box-shadow: 6px 6px 0px var(--pixel-shadow);
+}
